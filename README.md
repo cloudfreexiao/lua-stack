@@ -17,8 +17,8 @@
 #### 使用说明
 1.  运行 sudo ./stack pid，在 ctrl+c 时会在当前目录生成 perf.stack 文件
 2.  下载火焰图导出工具 https://github.com/brendangregg/FlameGraph.git
-3.  执行 `./FlameGraph-master/stackcollapse-perf.pl perf.stack > perf.txt`
-4.  执行 `./FlameGraph-master/flamegraph.pl perf.txt > perf.svg`
+3.  执行 `./FlameGraph/stackcollapse-perf.pl perf.stack > perf.txt`
+4.  执行 `./FlameGraph/flamegraph.pl perf.txt > perf.svg`
 5.  通过浏览器查看 perf.svg 火焰图
 
 火焰图：
