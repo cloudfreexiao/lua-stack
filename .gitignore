@@ -1,0 +1,7 @@
+*/*vscode
+.output
+*/stack
+*/*.stack
+*.stack
+*.vscode
+
