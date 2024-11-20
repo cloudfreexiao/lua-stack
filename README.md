@@ -1,6 +1,8 @@
 # lua-stack
 
 #### 介绍
+来源于: https://gitee.com/lindx-code/lua-stack
+
 这是一个基于`eBPF`实现的性能分析工具，我主要参考了[lua-perf](https://github.com/findstr/lua-perf) 以及 [unread](https://github.com/etherealvisage/unread) 来实现
 
 能查看 c 与 lua 代码混合堆栈，并导出火焰图，目前支持 lua5.3，lua5.4，以及 skynet，可以用来分析lua死循环，以及输出火焰图，进行性能分析。 
